@@ -2,6 +2,7 @@ $color-dark:#262626;
 $color-black:#000;
 $color-primary:#d3ab55;
 $color-secondary:#bbb;
+$color-white:#fff;
 
 $font-dancingScript: "Dancing Script",
 cursive;
@@ -48,6 +49,11 @@ Tahoma;
     top: $topValue;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+%fullSpace {
+    width: 100%;
+    height: 100%;
 }
 
 * {
